@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SHPoid
 {
-    public partial class Form1 : Form
+    public partial class SHPoid : Form
     {
-        public Form1()
+        public SHPoid()
         {
             InitializeComponent();
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
