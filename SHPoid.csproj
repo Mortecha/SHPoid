@@ -62,6 +62,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SHPoid.resx">
       <DependentUpon>SHPoid.cs</DependentUpon>
@@ -78,6 +79,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colourselector.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crosshair.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marquee.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newfile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextframe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintbrush.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipette.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prevframe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savefile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomout.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
